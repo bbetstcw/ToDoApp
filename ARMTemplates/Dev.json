@@ -175,7 +175,8 @@
                     ],
                     "properties": {
                         "RepoUrl": "[parameters('repoUrl')]",
-                        "branch": "[parameters('branch')]"
+                        "branch": "[parameters('branch')]",
+                        "IsManualIntegration": true
                     }
                 }
             ]
@@ -214,7 +215,8 @@
                     ],
                     "properties": {
                         "RepoUrl": "[parameters('repoUrl')]",
-                        "branch": "[parameters('branch')]"
+                        "branch": "[parameters('branch')]",
+                        "IsManualIntegration": true
                     }
                 }
             ]
